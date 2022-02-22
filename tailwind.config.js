@@ -4,4 +4,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  purge: [
+    'dist/**/*.html'
+  ],
 }
